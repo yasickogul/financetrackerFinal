@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme colors -->
+    <color name="primary">#acc572</color> <!-- vibrant red primary -->
+    <color name="primary_dark">#41B0D8</color> <!-- deeper red for depth -->
+    <color name="primary_light">#41B0D8</color> <!-- lighter red for highlights -->
+    <color name="accent">#ffdf88</color> <!-- complementary cyan -->
+    <color name="accent_dark">#ffa55d</color> <!-- deeper cyan -->
+
+    <!-- Text colors -->
+    <color name="text_primary">#1A1D1F</color> <!-- near black for contrast -->
+    <color name="text_secondary">#4A5056</color> <!-- slate for secondary text -->
+    <color name="text_hint">#9BA1A7</color> <!-- medium gray for hints -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- Background colors -->
+    <color name="background">#000000</color> <!-- very light red tint -->
+    <color name="backgroundclr">#000000</color> <!-- very light red tint -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#FFE8E8</color> <!-- subtle red-tinted divider -->
+
+    <!-- Status colors -->
+    <color name="success">#2DD4BF</color> <!-- teal -->
+    <color name="warning">#F59E0B</color> <!-- amber -->
+    <color name="error">#41B0D8</color> <!-- matches primary -->
+    <color name="info">#3B82F6</color> <!-- bright blue -->
+
+    <!-- Transaction colors -->
+    <color name="income">#2DD4BF</color> <!-- teal -->
+    <color name="expense">#41B0D8</color> <!-- matches primary -->
+
+    <!-- Budget status colors -->
+    <color name="budget_good">#2DD4BF</color>
+    <color name="budget_warning">#F59E0B</color>
+    <color name="budget_exceeded">#41B0D8</color>
+
+    <!-- Chart colors - vibrant, energetic palette -->
+    <color name="chart_color_1">#41B0D8</color> <!-- primary red -->
+    <color name="chart_color_2">#41B0D8</color> <!-- cyan -->
+    <color name="chart_color_3">#2DD4BF</color> <!-- teal -->
+    <color name="chart_color_4">#8B5CF6</color> <!-- purple -->
+    <color name="chart_color_5">#F59E0B</color> <!-- amber -->
+    <color name="chart_color_6">#10B981</color> <!-- emerald -->
+    <color name="chart_color_7">#3B82F6</color> <!-- blue -->
+    <color name="chart_color_8">#EC4899</color> <!-- pink -->
+
+    <!-- Category colors - vibrant palette that complements red -->
+    <color name="category_food">#2DD4BF</color> <!-- teal -->
+    <color name="category_transport">#3B82F6</color> <!-- bright blue -->
+    <color name="category_bills">#41B0D8</color> <!-- primary red -->
+    <color name="category_entertainment">#8B5CF6</color> <!-- purple -->
+    <color name="category_shopping">#F59E0B</color> <!-- amber -->
+    <color name="category_health">#10B981</color> <!-- emerald -->
+    <color name="category_education">#41B0D8</color> <!-- cyan -->
+    <color name="category_housing">#64748B</color> <!-- slate -->
+    <color name="category_other">#9BA1A7</color> <!-- gray -->
+
+    <!-- Night mode / Dark theme colors -->
+    <color name="night_primary">#41B0D8</color> <!-- brighter red for night mode -->
+    <color name="night_background">#121416</color> <!-- very dark background -->
+    <color name="night_surface">#1A1D1F</color> <!-- dark surface -->
+    <color name="night_text_primary">#F8FAFC</color> <!-- off-white text -->
+    <color name="night_text_secondary">#E2E8F0</color> <!-- light gray text -->
+</resources>
