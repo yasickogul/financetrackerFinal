@@ -45,7 +45,7 @@ class SignIn : AppCompatActivity() {
             val storedPassword = sharedPref.getString("password", "")
 
             // Validate credentials
-            if (email == "rk@gmail.com" && password == "123456" && email.isNotEmpty() && password.isNotEmpty()) {
+            if (email == "yk@gmail.com" && password == "123456" && email.isNotEmpty() && password.isNotEmpty()) {
                 Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()

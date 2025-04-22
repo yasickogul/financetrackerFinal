@@ -17,6 +17,7 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
 
+@Suppress("DEPRECATION")
 class BudgetActivity : AppCompatActivity() {
     private lateinit var binding: ActivityBudgetBinding
     private lateinit var transactionRepository: TransactionRepository

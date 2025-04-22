@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cashora</string>
+    <string name="app_name">Spendee</string>
 
     <!-- Bottom Navigation -->
     <string name="dashboard">Dashboard</string>
@@ -69,5 +69,6 @@
     <string name="cancel">Cancel</string>
     <string name="delete">Delete</string>
     <string name="field_required">This field is required</string>
+    <string name="spendee">Spendee</string>
 
 </resources>
