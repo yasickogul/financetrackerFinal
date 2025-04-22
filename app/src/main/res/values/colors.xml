@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base theme colors -->
-    <color name="primary">#acc572</color> <!-- vibrant red primary -->
+    <color name="primary">#0F6B63</color> <!-- vibrant red primary -->
     <color name="primary_dark">#41B0D8</color> <!-- deeper red for depth -->
     <color name="primary_light">#41B0D8</color> <!-- lighter red for highlights -->
     <color name="accent">#ffdf88</color> <!-- complementary cyan -->
@@ -14,8 +14,8 @@
     <color name="white">#FFFFFF</color>
 
     <!-- Background colors -->
-    <color name="background">#000000</color> <!-- very light red tint -->
-    <color name="backgroundclr">#000000</color> <!-- very light red tint -->
+    <color name="background">#acc572</color> <!-- very light red tint -->
+    <color name="backgroundclr">#acc572</color> <!-- very light red tint -->
     <color name="card_background">#FFFFFF</color>
     <color name="divider">#FFE8E8</color> <!-- subtle red-tinted divider -->
 

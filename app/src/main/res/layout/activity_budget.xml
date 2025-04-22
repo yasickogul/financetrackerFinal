@@ -103,6 +103,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:background="@color/accent"
                     android:padding="16dp">
 
                     <TextView
@@ -129,8 +130,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:max="100"
-                        app:indicatorColor="@color/primary"
-                        app:trackColor="@color/primary_light"
+                        app:indicatorColor="@color/accent_dark"
+                        app:trackColor="@color/primary"
                         app:trackCornerRadius="4dp"
                         app:trackThickness="8dp"
                         tools:progress="75" />
@@ -253,6 +254,7 @@
                     android:id="@+id/bar_chart"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
+                    android:background="@color/accent"
                     android:layout_margin="8dp" />
             </com.google.android.material.card.MaterialCardView>
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundclr"
     android:backgroundTint="@color/backgroundclr"
-    tools:context=".Onboard1">
+    tools:context="com.example.spendee.Onboard1">
 
 
     <ImageView

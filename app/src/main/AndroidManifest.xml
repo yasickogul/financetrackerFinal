@@ -14,52 +14,51 @@
         android:label="@string/spendee"
         android:roundIcon="@drawable/logoss"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Financetracker"
-        tools:targetApi="31">
+        android:theme="@style/Theme.Financetracker">
         <activity
-            android:name=".GetStarted"
+            android:name="com.example.spendee.GetStarted"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name="com.example.spendee.SignUp"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
+            android:name="com.example.spendee.SignIn"
             android:exported="false" />
         <activity
-            android:name=".Onboard3"
+            android:name="com.example.spendee.Onboard3"
             android:exported="false" />
         <activity
-            android:name=".Onboard2"
+            android:name="com.example.spendee.Onboard2"
             android:exported="false" />
         <activity
-            android:name=".Onboard1"
+            android:name="com.example.spendee.Onboard1"
             android:exported="false" />
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.example.spendee.ui.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.TransactionsActivity"
+            android:name="com.example.spendee.ui.TransactionsActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.SettingsActivity"
+            android:name="com.example.spendee.ui.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.SetBudgetActivity"
+            android:name="com.example.spendee.ui.SetBudgetActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.EditTransactionActivity"
+            android:name="com.example.spendee.ui.EditTransactionActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.DeleteTransactionActivity"
+            android:name="com.example.spendee.ui.DeleteTransactionActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.AddTransactionActivity"
+            android:name="com.example.spendee.ui.AddTransactionActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.BudgetActivity"
+            android:name="com.example.spendee.ui.BudgetActivity"
             android:exported="false" />
         <activity
-            android:name=".Logo"
+            android:name="com.example.spendee.Logo"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Financetracker">
@@ -70,7 +69,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".notification.ReminderReceiver" />
+        <receiver android:name="com.example.spendee.notification.ReminderReceiver" />
     </application>
 
 </manifest>
