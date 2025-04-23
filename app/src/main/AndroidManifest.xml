@@ -15,15 +15,11 @@
         android:roundIcon="@drawable/logoss"
         android:supportsRtl="true"
         android:theme="@style/Theme.Financetracker">
+
         <activity
-            android:name="com.example.spendee.GetStarted"
+            android:name="com.example.spendee.passcodeActivity"
             android:exported="false" />
-        <activity
-            android:name="com.example.spendee.SignUp"
-            android:exported="false" />
-        <activity
-            android:name="com.example.spendee.SignIn"
-            android:exported="false" />
+
         <activity
             android:name="com.example.spendee.Onboard3"
             android:exported="false" />
